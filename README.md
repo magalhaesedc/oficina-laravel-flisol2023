@@ -67,6 +67,11 @@ php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/local/bin/composer
 ```
 
+##### Criar um projeto Laravel
+```sh
+composer create-project laravel/laravel example-app
+```
+
 #### Comandos úteis do Laravel
 
 Criar um Model:
@@ -89,11 +94,14 @@ Executar o projeto:
 php artisan serve
 ```
 
+## Demonstração da tela final do projeto
+![Tela Final](https://flisol.info/moin_static194/sol/img/flisol-top-bar.png)
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ---
-Autor: Edson Magalhães da Costa
-Evento: Festival Latino Americano de Instalação de Software Livre - 2023
-Local: Instituto de Educação, Ciência e Tecnologia - Campus Paragominas/PA
+##### Autor: Edson Magalhães da Costa
+##### Evento: Festival Latino Americano de Instalação de Software Livre - 2023
+##### Local: Instituto de Educação, Ciência e Tecnologia - Campus Paragominas/PA
