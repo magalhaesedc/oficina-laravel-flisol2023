@@ -95,7 +95,7 @@ php artisan serve
 ```
 
 ## Demonstração da tela final do projeto
-![Tela Final](https://flisol.info/moin_static194/sol/img/flisol-top-bar.png)
+![Tela Final](https://raw.githubusercontent.com/magalhaesedc/oficina-laravel-flisol2023/master/tela_final.png?token=GHSAT0AAAAAACBBL74M2PBODS67EGX2BI4SZBNVDVQ)
 
 ## License
 
