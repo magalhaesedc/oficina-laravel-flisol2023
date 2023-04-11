@@ -27,19 +27,23 @@
       <table class="table mb-5">
         <thead>
           <tr>
+            <th scope="col">ID</th>
             <th scope="col">Nome</th>
             <th scope="col">Sobrenome</th>
             <th scope="col">E-mail</th>
             <th scope="col">Município</th>
+            <th scope="col">Ações</th>
           </tr>
         </thead>
         <tbody>
           @foreach($participantes as $participante)
           <tr>
-            <td>{{$participante->nome}}</td>
-            <td>{{$participante->sobrenome}}</td>
-            <td>{{$participante->email}}</td>
-            <td>{{$participante->municipio}}</td>
+            <td>{{ $participante->id }}</td>
+            <td>{{ $participante->nome }}</td>
+            <td>{{ $participante->sobrenome }}</td>
+            <td>{{ $participante->email }}</td>
+            <td>{{ $participante->municipio }}</td>
+            <td><a href="/delete/{{$participante->id}}" class="btn btn-danger"><i class="bi bi-trash-fill"></i></a></td>
           </tr>
           @endforeach
         </tbody>

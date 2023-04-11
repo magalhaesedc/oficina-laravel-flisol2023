@@ -28,4 +28,13 @@ class ParticipanteController extends Controller
         return redirect('/inicio');
 
     }
+    
+    function delete(Request $request){
+
+        $participante = Participante::find($request->id);
+
+        $participante->delete();
+
+        return redirect('/inicio');
+    }
 }

@@ -21,3 +21,6 @@ Route::get('/', function () {
 Route::get('/inicio', [ParticipanteController::class, 'index']);
 
 Route::post('/cadastrar', [ParticipanteController::class, 'cadastrar']);
+
+Route::get('/delete/{id}', [ParticipanteController::class, 'delete']);
+
